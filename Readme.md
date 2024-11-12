@@ -14,7 +14,7 @@ pip install preprocess_kgptalkie
 ### Installation from GitHub
 You can install this package from GitHub as follows:
 ```
-pip install git+git@github.com:TigeressCindy/preprocess_kgptalkie.git --upgrade 
+pip install git+https://github.com/TigeressCindy/preprocess_kgptalkie.git --upgrade 
 --force-reinstall
 ```
 
