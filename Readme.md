@@ -14,7 +14,8 @@ pip install preprocess_kgptalkie
 ### Installation from GitHub
 You can install this package from GitHub as follows:
 ```
-pip install git+https://github.com/laxmimerit/preprocess_kgptalkie.git --upgrade --force-reinstall
+pip install git+git@github.com:TigeressCindy/preprocess_kgptalkie.git --upgrade 
+--force-reinstall
 ```
 
 ### Uninstall the Package
@@ -199,7 +200,11 @@ ps.extract_features("I love NLP")
 - Be cautious when using heavy operations like `lemmatize` and `spelling_correction` on very large datasets, as they can be time-consuming.
 - The package supports custom cleaning and preprocessing pipelines by using these modular functions together.
 
-
+pip install spacy==3.7.6
+python -m spacy download en_coure_web_sm==3.7.1
+pip install textblob==0.18.0.post0
+pip install beautifulsoup4==3.2.2
+pip install nltk==3.9.1
 
 
 
